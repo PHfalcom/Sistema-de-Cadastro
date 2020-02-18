@@ -1,0 +1,17 @@
+/* Alinhamento, espaçamento, larguras e alturas*/
+
+header, main {
+    text-align: center;
+
+}
+
+section.donors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.form{
+    color: red;
+}
+
+
