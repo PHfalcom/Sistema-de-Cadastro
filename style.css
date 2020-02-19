@@ -162,5 +162,18 @@ footer{
     border: 1px solid white;
 }
 
+/* função */
+
+section.form {
+    transition: all 400ms;
+}
+
+section.form.hide {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    margin-top: -70px;
+}
+
 
 
