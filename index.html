@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>Take your blood</title>
+    <title>blood</title>
 
     <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
@@ -22,10 +22,10 @@
 
     <section class="form hide">
         <h2>Entre na lista de doadores</h2>
-        <form action="/">
+        <form action="/" method="POST">
             <input type="text" name="name" type="text" placeholder="Nome Completo">
-            <input type="text" name="name" type="text" placeholder="E-mail">
-            <input type="text" name="name" type="text" placeholder="Tipo sanguíneo">
+            <input type="text" name="email" type="text" placeholder="email">
+            <input type="text" name="blood" type="text" placeholder="Tipo sanguíneo">
 
             <button>Quero ajudar</button>
         </form>
@@ -35,26 +35,16 @@
         <h2>Útimos <span>doadores</span></h2>
 
         <section class="donors">
-            <div class="donor">
-                <div class="blood">AB+</div>
-                <p>Pedro Henrique</p>
 
-            </div>
-            <div class="donor">
-                <div class="blood">B+</div>
-                <p>Isabella Rodrigues</p>
+            {% for donor in donors %}
 
-            </div>
-            <div class="donor">
-                <div class="blood">A+</div>
-                <p>Ronaldo da Silva</p>
+                <div class="donor">
+                    <div class="blood">{{donor.blood}}</div>
+                    <p>{{donor.name}}</p>
+                </div>
 
-            </div>
-            <div class="donor">
-                <div class="blood">O+</div>
-                <p>Lucas Montero </p>
 
-            </div>
+            {%endfor%}
 
         </section>
     </main>
