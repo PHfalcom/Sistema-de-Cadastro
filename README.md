@@ -6,7 +6,7 @@ coisas que não havia aprendido antes, logo, me diverti muito fazendo.
 
 # Funcionamento
 
-Como havia dito é um sistema simples de cadastro:
+Como havia dito é um simples sistema de cadastro:
 
 ![ezgif com-optimize](https://user-images.githubusercontent.com/60011182/75093499-0d353180-5561-11ea-9b47-469176bb7840.gif)
 
