@@ -1,7 +1,7 @@
 # Sistema-de-Cadastro
 __Sistema de cadastro baseado em doação de sangue.__
 
-Durante um evento da RockeatSeat, chamado MaratonaDev, fiz um Sistema de Cadastro básico com sistema de banco de dados e servidor.
+Durante um evento da RockeatSeat, chamado MaratonaDev, fiz um Sistema de Cadastro básico com sistema de __banco de dados__ e __servidor__.
 
 # Funcionamento
 
