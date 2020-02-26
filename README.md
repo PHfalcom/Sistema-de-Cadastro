@@ -13,5 +13,23 @@ Com funcionamento simples:
 
 ![ezgif com-optimize](https://user-images.githubusercontent.com/60011182/75093920-07d9e600-5565-11ea-9b71-756e2817bdb4.gif)
 
+# Tecnologias usadas
+__FrontEnd da aplicação__
+
+  - JavaScript
+  
+  - HTML
+  
+  - CSS
+  
+__BackEnd da aplicação__
+
+  - NodeJS / Express
+  
+  - NunJucks
+  
+  - Postgres / Postbird
+  
+
                                                                             
                                                                                 OBS: Node é muito bom XD
